@@ -12,9 +12,11 @@ h1 {
 }
 
 .card {
+    margin: auto;
     background: #fff;
     border-radius: 25px;
     padding: 25px;
+    max-width: 768px;
 }
 
 h3 {
@@ -73,4 +75,3 @@ p {
 p a, p a:hover {
     color: #666;
 }
-
