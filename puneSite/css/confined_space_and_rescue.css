@@ -1,3 +1,6 @@
+.pageTabs {
+    padding-left: 0;
+}
 .pageTabs li {
     list-style: none;
     display: inline-block;
@@ -25,9 +28,14 @@
     display: block;
     margin: auto;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.54);
+    margin-bottom: 24px;
 }
 
 .descriptionDiv .descriptionTitle {
     font-weight: 700;
+    font-size: 20px;
+}
+
+.descriptionDiv {
     font-size: 16px;
 }
