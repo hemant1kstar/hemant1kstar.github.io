@@ -1,0 +1,12 @@
+.footer_address {
+    margin: 20px auto;
+    text-align: justify;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+}
+.footer_address h4 {
+    margin-left: 16px;
+    color: #1f8b8b;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}

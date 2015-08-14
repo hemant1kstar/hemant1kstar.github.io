@@ -1,0 +1,28 @@
+.pageHeader {
+    padding: 16px 0;
+    font-family: 'PT Mono', monospace;
+    border-top: 2px solid rgba(0, 0, 0, 0.26);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+    margin-bottom: 32px;
+
+}
+.pictureAndName {
+    background-color: #4DB6AC;
+}
+.pictureAndName div {
+    display: inline-block;
+}
+.pictureAndName img {
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.54);
+}
+.nameAndDesignation {
+    margin-left: 32px;
+    color: white;
+    font-family: 'PT Mono', monospace;
+}
+.foundersDiv p {
+    margin: 24px 0px;
+}

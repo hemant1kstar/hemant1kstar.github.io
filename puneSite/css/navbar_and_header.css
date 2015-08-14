@@ -1,0 +1,29 @@
+.head img{
+    margin: 15px 0px 0px 0px;
+}
+.navbars{
+    margin-top: 10px;
+    background-color: white;
+    border: 0px;
+}
+.navbars li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.navbars li:hover{
+    background-color: #5dcece;
+}
+.navbars button{
+    background-color: #5dcece;
+    border: 0px;
+}
+.navbars button:hover{
+    border: 0px;
+    background-color: #5dcece;
+}
+.navbars button:focus{
+    border: 0px;
+    background-color: #5dcece;
+}
