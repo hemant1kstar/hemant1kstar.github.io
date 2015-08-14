@@ -1,29 +1,41 @@
-.head img{
+.head img {
     margin: 15px 0px 0px 0px;
 }
-.navbars{
+.navbars {
     margin-top: 10px;
     background-color: white;
     border: 0px;
+    color: #9d9d9d;
+    text-transform: uppercase;
 }
-.navbars li a{
-    padding: 10px;
+.navbars li a {
     text-decoration: none;
-    color: black;
-    margin: 5px;
+    margin: 0 5px;
 }
-.navbars li:hover{
+.navbars li:hover,
+.navbars li:focus {
     background-color: #5dcece;
 }
-.navbars button{
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #5dcece;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+    background-color: #5dcece;
+}
+
+.navbars button {
     background-color: #5dcece;
     border: 0px;
 }
-.navbars button:hover{
+.navbars button:hover {
     border: 0px;
     background-color: #5dcece;
 }
-.navbars button:focus{
+.navbars button:focus {
     border: 0px;
     background-color: #5dcece;
 }

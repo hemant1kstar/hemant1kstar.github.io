@@ -1,0 +1,33 @@
+.pageTabs li {
+    list-style: none;
+    display: inline-block;
+    background-color: #4DB6AC;
+    padding: 16px 8px;
+    margin: 8px;
+}
+.pageTabs li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
+}
+.productsTitle {
+    font-size: 24px;
+    margin-top: 48px;
+    font-family: 'PT Mono', monospace;
+}
+.productsDiv {
+    background-color: #1976D2; /*Blue color 700*/
+    color: white;
+    padding: 24px;
+}
+.productImage {
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.54);
+}
+
+.descriptionDiv .descriptionTitle {
+    font-weight: 700;
+    font-size: 16px;
+}
