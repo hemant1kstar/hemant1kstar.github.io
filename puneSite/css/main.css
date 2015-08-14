@@ -1,0 +1,109 @@
+.head img{
+    margin: 15px 0px 0px 0px;
+}
+.navbars{
+    margin-top: 10px;
+    background-color: white;
+    border: 0px;
+}
+.navbars li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.navbars li:hover{
+    background-color: #5dcece;
+}
+.navbars button{
+    background-color: #5dcece;
+    border: 0px;
+}
+.navbars button:hover{
+    border: 0px;
+    background-color: #5dcece;
+}
+.navbars button:focus{
+    border: 0px;
+    background-color: #5dcece;
+}
+.textdata{
+    margin: 25px auto;
+    text-align: justify;
+}
+.textdata a{
+    float: right;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #777777;
+    color: white;
+    border-radius: 25%;
+}
+.textdata img{
+    border-radius: 50%;
+    width: 100px;
+}
+.space{
+    margin: 20px auto;
+    text-align: justify;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+}
+.space h4{
+    padding: 5px 20px;
+    color: #1f8b8b;
+}
+.space img{
+    width: 270px;
+    height: 220px;
+    margin: 5px;
+}
+.space a{
+    float: right;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #777777;
+    color: white;
+    border-radius: 25%;
+}
+.description{
+     margin: 20px auto;
+    text-align: justify;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+}
+.description img{
+    width: 340px;
+    height: 220px;
+    margin: 50px auto 0px;
+}
+.description h5{
+    color: #1f8b8b;
+}
+.description a{
+    float: right;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #777777;
+    color: white;
+    border-radius: 25%;
+}
+.imgfirst,.imgsecond{
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.imgthird{
+     display: block;
+    width: 100px;
+    height: 60px;
+    margin: 15px auto 5px;
+}
+.slider{
+    height: 450px;
+}
+.slider img{
+    width: 100%;
+}
