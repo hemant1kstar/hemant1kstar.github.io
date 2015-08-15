@@ -60,8 +60,29 @@
     margin: 15px auto 5px;
 }
 .slider{
-    height: 450px;
+    height: 177px;
 }
-.slider img{
+.item img{
     width: 100%;
+}
+
+@media (min-width:600px) {
+    .slider{
+        height: 300px;
+    }
+}
+@media (min-width:700px) {
+    .slider{
+        height: 350px;
+    }
+}
+@media (min-width:800px) {
+    .slider{
+        height: 450px;
+    }
+}
+@media (min-width:900px) {
+    .slider{
+        height: 450px;
+    }
 }
