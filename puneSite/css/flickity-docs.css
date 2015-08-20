@@ -1,0 +1,186 @@
+/* Flickity this css file for text div slider in main html file 
+------------------------- */
+*{
+/*        border: 5px solid pink; */
+    
+}
+/*middle div in main*/
+#middle{
+    width: 70%;
+    height: 550px;
+    margin-left: 15%;
+/*    margin-top: 10%;*/
+    margin-bottom: 50px;
+}
+
+.flickity-enabled {
+  position: relative;
+}
+.flickity-enabled:focus { outline: none; }
+
+.flickity-viewport { 
+  overflow: hidden;
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing; 
+  cursor: grabbing;
+}
+
+.flickity-slider {
+/*  position: absolute;*/
+  width: 100%;
+/*    height: 150px;*/
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button { 
+  position: absolute; 
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+   vertically center 
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.flickity-prev-next-button.previous { left: 10px; }
+.flickity-prev-next-button.next { right: 10px; }
+
+.flickity-prev-next-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+}
+
+.flickity-prev-next-button svg {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.flickity-prev-next-button .arrow {
+  fill: #333;
+}
+
+/* color & size if no SVG - IE8 and Android 2.3 */
+/*
+.flickity-prev-next-button.no-svg {
+  color: #333;
+  font-size: 26px;
+}
+*/
+/* ---- page dots ---- */
+.flickity-page-dots { 
+  position: absolute;
+  width: 100%;
+  bottom: -25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
+
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background: #863838;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer;
+}
+.flickity-page-dots .dot.is-selected { opacity: 1; }
+
+.content-wrap { 
+  max-width: 500px;
+  margin: 0 ;
+  padding: 0 0px;
+}
+.hero-gallery {
+/*  margin-bottom: 80px;*/
+/*  height: 95%;*/
+    margin-top: 10px;
+  background: #FAFAFA url('http://i.imgur.com/R60qKwSvd.jpg');
+  background-size: cover;
+}
+.hero-gallery__cell {
+  width: 100%;
+  height: 200px;
+  color: white;
+  background: rgba(113, 188, 244, 0.99);
+  padding: 20px 60px;
+   
+}
+/*
+.hero-gallery{
+  
+  margin: 0;
+}
+*/
+
+.hero-gallery__cell--2 {
+  background: #f56363;
+}
+
+.hero-gallery__cell--3 {
+  background: rgb(46, 153, 157);
+}
+
+.hero-gallery__cell--4 {
+  background:#932e32;
+}
+.hero-gallery__cell--5 {
+  background:#963a8f;
+}
+.hero-gallery__cell--6 {
+  background:#5d2e93;
+}
+.hero-gallery__cell--7 {
+  background:#2e935d;
+}
+.hero-gallery__cell--8 {
+  background:#74932e;
+}
+.hero-gallery__cell--9 {
+  background:#93602e;
+}
+@media screen and ( min-width: 750px ) {
+  .hero-gallery__cell {
+      
+  }
+#middle{
+    margin-left: 26%;
+    width: 50%;
+    margin-bottom: 40px;
+/*    float: left;*/
+}
+}
+@media screen and ( min-width: 900px ) {
+  .hero-gallery__cell {
+    height: 170px;
+  }
+#middle{
+    margin-left: 1%;
+    height: 220px ;
+/*      margin-top: 150px;*/
+/*    margin-top: 10%;*/
+    width: 50%;
+    float: left;
+}
+    
+}
+
