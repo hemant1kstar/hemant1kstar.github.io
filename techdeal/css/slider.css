@@ -1,0 +1,26 @@
+*{
+/*    border: 1px solid red;*/
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item img{
+/*    margin: 0 auto; */
+    /* Align slide image horizontally center */
+}
+.bs-example{
+	margin: 0px auto;
+}
+.carousel-inner{
+    height: 250px;
+    display: block;
+    margin: 140px auto 10px;
+}
+@media(min-width:600px){
+.carousel-inner{
+    height: 400px;
+    display: block;
+    margin: 140px auto 10px;
+}
+}

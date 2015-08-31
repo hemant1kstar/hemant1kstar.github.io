@@ -1,0 +1,36 @@
+.about{
+    margin: 24px;
+    box-shadow:0px 1px 1px 1px rgba(255, 255, 255, 0.56); 
+    background-color:darkcyan;
+}
+
+.about_label{
+  font-size: 20px;
+  border: 1px solid darkcyan;
+  margin: 12px auto;
+  background-color: darkcyan;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+  box-shadow:0px 1px 1px 1px rgba(255, 255, 255, 0.26); 
+}
+
+.about h3{
+  font-size: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+  margin: 12px auto;
+}
+
+.about p{
+  font-size: 18px;
+  padding: inherit;
+  text-align: justify;
+}
+
+@media(min-width:992px){
+.about{
+    margin: 24px auto;
+}
+
+}

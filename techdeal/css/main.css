@@ -1,0 +1,164 @@
+body{
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #b5b5b5;
+      color: rgba(255, 255, 255, 0.87);
+}
+
+/* CSS for banner */
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.navbar-brand{
+      height: auto;
+      
+}
+
+.navbar-brand h1{
+      text-align: left;
+      font-size: 18px;
+      margin: 10px;
+      color: white;
+}
+
+.navbar-brand h3{
+      text-align:left;
+      font-size: 16px;
+      color: white;
+}
+
+
+/* CSS for navbar */
+
+.navbar-default{
+      background-color: #607D8B;
+      border: 1px solid #607D8B;
+      box-shadow: 3px 3px 3px 2px #8b8b8b;
+}
+
+.navbar-default .navbar-nav li{
+      margin: 10px;
+      color: rgba(255, 255, 255, 0.87);
+}
+
+.navbar-default .navbar-nav li>a{
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #607D8B;
+      border-radius: 2px;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus{
+      background-color: #37474F;
+      color: rgba(255, 255, 255, 0.87);
+}
+
+.navbar-default .navbar-nav li>a:hover,
+.navbar-default .navbar-nav li>a:focus{
+      background-color: #37474F;
+      color: rgba(255, 255, 255, 0.87);
+}
+
+#collape{
+       background-color: #607D8B;
+       border: 1px solid #607D8B;
+       color: rgba(255, 255, 255, 0.87);
+}
+
+#collape:hover,
+#collape:focus{
+       background-color: #37474F;
+       border: 1px solid #37474F;
+       color: rgba(255, 255, 255, 0.87);
+}
+
+#icon-bar{
+      background-color: rgba(255, 255, 255, 0.87);
+}
+
+/* CSS for footer */
+
+.footer{
+      font-size: 14px;
+      background-color: #131416;
+      padding: 10px;
+}
+
+.footer li{
+       list-style: none;
+       margin:24px;
+}
+     .social{
+            padding-left:24px;
+      }
+
+      .fa{
+            font-size: 20px;
+            border: 1px solid #607D8B;
+            box-shadow: 0px 1px 1px 0px #607D8B;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px;
+      }
+         .fa:hover{
+            font-size: 20px;
+            background-color: #607D8B;
+            border: 1px solid #607D8B;
+            border-radius: 10px;
+      }
+
+
+
+@media(min-width:992px){
+      
+      /*CSS for banner */
+      
+      .banner h1{
+            font-size: 34px;
+      }
+
+      .banner h3{
+            font-size: 22px;
+      }
+      
+      /* CSS for navigation bar */
+
+      .navbar-default .navbar-nav>.active>a,
+      .navbar-default .navbar-nav>.active>a:hover,
+      .navbar-default .navbar-nav>.active>a:focus{
+            background-color: #37474F;
+            color: rgba(255, 255, 255, 0.87);
+            box-shadow:0px 1px 1px 1px rgba(255, 255, 255, 0.14); 
+            border-bottom: 1px solid #37474F;
+            border-radius: 15px;
+      }
+
+      .navbar-default .navbar-nav li>a:hover,
+      .navbar-default .navbar-nav li>a:focus{
+            background-color: #37474F;
+            color: rgba(255, 255, 255, 0.87);
+            border-bottom: 1px solid #37474F;
+            border-radius: 10px;
+            
+      }
+      
+      /* CSS for footer */
+      
+      .footer{
+      font-size: 16px;
+      }
+      
+      .footer ul{
+             padding: 14px;
+      }
+
+      .footer li{
+            display: inline;
+
+      }
+      
+}
+
