@@ -46,7 +46,7 @@
                 </div>
                 <h4 class="call">
                         <a href="tel:02225600093">call:-22-25600093</a>
-                    </h4>
+                </h4>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about_us.html">ABOUT US</a></li>
-                    <li><a href="#">BLOG</a></li>
+<!--                    <li><a href="#">BLOG</a></li>-->
                     <li class="active"><a href="#" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTS <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="confined_space_and_rescue.html">Confined Space and Rescue</a></li>
@@ -77,7 +77,7 @@
                     </li>
 
                     <li><a href="Gallery.html">GALLERY</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -86,9 +86,9 @@
     <!-- Page header -->
     
     <h2 class="pageHeader">Horizontal Life Line System</h2>
-    
+     <h5 class="productsTitle" id="safety_net_system"><a href="#" id="toggle1">Horizantal System</a></h5>
         <div>
-        <div class="productsDiv">
+        <div class="productsDiv toggle1">
             <img src="images/vertical_life_line_system/horizantal1.png" class="productImage">
             <img src="images/vertical_life_line_system/horizantal2.png" class="productImage img-responsive">
 
@@ -100,9 +100,10 @@
     
 
     <h2 class="pageHeader">Vertical Life Line System</h2>
+     <h5 class="productsTitle" id="safety_net_system"><a href="#" id="toggle2">Vertical System</a></h5>
     <div>
         <!--            The Div        -->
-        <div class="productsDiv">
+        <div class="productsDiv toggle2">
             <img src="images/vertical_life_line_system/vertical%20line.jpg" class="productImage">
             <img src="images/vertical_life_line_system/vertical%20line%20diagram.png" class="productImage img-responsive">
 
@@ -136,8 +137,9 @@
     </div>
     <!--        footer div end-->
 
-
-
+     <script>
+    $('#toggle1').click(function() { $('.toggle1').slideToggle('slow'); return false; });
+    $('#toggle2').click(function() { $('.toggle2').slideToggle('slow'); return false; });
+    </script>
 </body>
-
 </html>

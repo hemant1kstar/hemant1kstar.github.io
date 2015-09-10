@@ -16,13 +16,24 @@
 }
 .productsTitle {
     font-size: 24px;
-    margin-top: 48px;
+    margin-top: 24px;
+    padding: 12px;
+    text-align: center;
     font-family: 'PT Mono', monospace;
+/*    background-color: #aaaaaa;*/
+    box-shadow: 2px 2px 2px 2px #aaaaaa;
 }
 .productsDiv {
     background-color: #1976D2; /*Blue color 700*/
     color: white;
-    padding: 24px;
+    padding: 24px;  
+    display:none;
+}
+.bigimg{
+    width: 100%;
+}
+.imgheight{
+    height: 650px;
 }
 .productImage {
     display: block;
